@@ -1,4 +1,4 @@
-const url = "https://api.open-meteo.com/v1/forecast?latitude=YOUR_LAT&longitude=YOUR_LONG&current=temperature_2m,wind_speed_10m&temperature_unit=fahrenheit";
+const url = "https://api.open-meteo.com/v1/forecast?latitude=35.787743&longitude=-78.644257&current=temperature_2m,wind_speed_10m&temperature_unit=fahrenheit";
 const weatherArea = document.getElementById("weather");
 
 async function getWeather() {
